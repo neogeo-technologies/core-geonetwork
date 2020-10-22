@@ -400,6 +400,7 @@ UPDATE Metadata SET data = replace(data, '"http://www.opengis.net/gml"', '"http:
 UPDATE Metadata SET data = replace(data, ' xsi:schemaLocation="http://www.isotc211.org/2005/gmd https://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx https://www.isotc211.org/2005/gmx/gmx.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"', '') WHERE data LIKE '%xsi:schemaLocation="http://www.isotc211.org/2005/gmd https://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx https://www.isotc211.org/2005/gmx/gmx.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd%';
 
 UPDATE Settings SET internal='n' WHERE name='system/server/securePort';
+UPDATE Settings SET internal='n' WHERE name='system/server/port';
 
 
 UPDATE metadata SET data = replace(data, '<gmd:version gco:nilReason="missing">', '<gmd:version gco:nilReason="unknown">') WHERE  data LIKE '%<gmd:version gco:nilReason="missing">%';
@@ -419,6 +420,15 @@ INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('metada
 -- 3.8.1 https://github.com/geonetwork/core-geonetwork/blob/master/web/src/main/webapp/WEB-INF/classes/setup/sql/migrate/v381/migrate-default.sql
 
 -- 3.8.2 https://github.com/geonetwork/core-geonetwork/blob/master/web/src/main/webapp/WEB-INF/classes/setup/sql/migrate/v382/migrate-default.sql
+
+
+ALTER TABLE sources ADD COLUMN creationdate varchar(30);
+ALTER TABLE sources ADD COLUMN filter varchar(255);
+ALTER TABLE sources ADD COLUMN groupowner integer;
+ALTER TABLE sources ADD COLUMN logo varchar(255);
+ALTER TABLE sources ADD COLUMN servicerecord varchar(255);
+ALTER TABLE sources ADD COLUMN type varchar(255);
+ALTER TABLE sources ADD COLUMN uiconfig varchar(255);
 
 UPDATE Sources SET type = 'portal' WHERE type IS null AND uuid = (SELECT value FROM settings WHERE name = 'system/site/siteId');
 UPDATE Sources SET type = 'harvester' WHERE type IS null AND uuid != (SELECT value FROM settings WHERE name = 'system/site/siteId');
@@ -486,9 +496,3 @@ UPDATE metadata SET data = replace(data, '/thesaurus.download?ref=external.theme
 
 -- * Vieux liens
 UPDATE metadata SET data = replace(data, 'http://geosource.grandlyon.fr/geosource', 'https://download.data.grandlyon.com/catalogue') WHERE data LIKE '%http://geosource.grandlyon.fr/geosource%';
-
-GEMET - INSPIRE themes, version 1.0
-
--- 3.10.0 https://github.com/geonetwork/core-geonetwork/blob/master/web/src/main/webapp/WEB-INF/classes/setup/sql/migrate/v3110/migrate-default.sql
-
-
