@@ -77,7 +77,7 @@
   <bean id="RegionsDAO" class="org.fao.geonet.api.regions.ThesaurusBasedRegionsDAO">
     <constructor-arg ref="languages"/>
     <property name="cacheAllRegionsInMemory" value="true"/>
-    <property name="thesaurusName" value="external.place.regions"/>
+    <property name="thesaurusName" value="local.place.EmprisesGL"/>
   </bean>
 
   <bean id="MetadataRegionsDAO" class="org.fao.geonet.api.regions.MetadataRegionDAO">

@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gml="http://www.opengis.net/gml#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xdt="http://www.w3.org/2005/02/xpath-datatypes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <skos:ConceptScheme rdf:about="http://admisource.gouv.fr/projects/geocatalogue/commune">
+    <dc:title>Emprises du Grand Lyon et périphériques</dc:title>
+    <dc:description>Mots clé de type géographique pour GeoSource.</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>GRAND LYON - Communauté Urbaine de Lyon</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dc:rights>Free to all for non commercial use.</dc:rights>
+    <dcterms:issued>2014-05-05</dcterms:issued>
+    <dcterms:modified>2014-05-05</dcterms:modified>
+
+    <skos:hasTopConcept rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:ConceptScheme>
+
+
+
+  <skos:Concept rdf:about="http://grandlyon.org/#adminstrativeArea">
+    <skos:prefLabel xml:lang="fr">Emprises GrandLyon</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://admisource.gouv.fr/projects/geocatalogue/commune"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#GL">
+    <skos:prefLabel xml:lang="fr">grandlyon</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr"/>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#PM_G4">
+    <skos:prefLabel xml:lang="fr">POLE METROPOLITAIN G4</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.055 45.200</gml:lowerCorner>
+        <gml:upperCorner>5.630 46.300</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#EPCI_246900245">
+    <skos:prefLabel xml:lang="fr">GRAND LYON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.681 45.550</gml:lowerCorner>
+        <gml:upperCorner>5.067 45.917</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69003">
+    <skos:prefLabel xml:lang="fr">ALBIGNY-SUR-SAONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.818 45.853</gml:lowerCorner>
+        <gml:upperCorner>4.839 45.879</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69029">
+    <skos:prefLabel xml:lang="fr">BRON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.886 45.717</gml:lowerCorner>
+        <gml:upperCorner>4.936 45.752</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69033">
+    <skos:prefLabel xml:lang="fr">CAILLOUX-SUR-FONTAINES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.854 45.838</gml:lowerCorner>
+        <gml:upperCorner>4.909 45.880</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69034">
+    <skos:prefLabel xml:lang="fr">CALUIRE-ET-CUIRE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.819 45.778</gml:lowerCorner>
+        <gml:upperCorner>4.878 45.818</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69040">
+    <skos:prefLabel xml:lang="fr">CHAMPAGNE-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.770 45.789</gml:lowerCorner>
+        <gml:upperCorner>4.802 45.811</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69044">
+    <skos:prefLabel xml:lang="fr">CHARBONNIERES-LES-BAINS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.725 45.767</gml:lowerCorner>
+        <gml:upperCorner>4.761 45.790</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69046">
+    <skos:prefLabel xml:lang="fr">CHARLY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.768 45.635</gml:lowerCorner>
+        <gml:upperCorner>4.805 45.668</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69271">
+    <skos:prefLabel xml:lang="fr">CHASSIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.932 45.719</gml:lowerCorner>
+        <gml:upperCorner>4.994 45.753</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69063">
+    <skos:prefLabel xml:lang="fr">COLLONGES-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.827 45.803</gml:lowerCorner>
+        <gml:upperCorner>4.858 45.834</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69273">
+    <skos:prefLabel xml:lang="fr">CORBAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.886 45.641</gml:lowerCorner>
+        <gml:upperCorner>4.934 45.689</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69068">
+    <skos:prefLabel xml:lang="fr">COUZON-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.805 45.839</gml:lowerCorner>
+        <gml:upperCorner>4.837 45.856</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69069">
+    <skos:prefLabel xml:lang="fr">CRAPONNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.706 45.735</gml:lowerCorner>
+        <gml:upperCorner>4.752 45.755</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69071">
+    <skos:prefLabel xml:lang="fr">CURIS-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.806 45.854</gml:lowerCorner>
+        <gml:upperCorner>4.833 45.881</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69072">
+    <skos:prefLabel xml:lang="fr">DARDILLY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.722 45.787</gml:lowerCorner>
+        <gml:upperCorner>4.771 45.839</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69275">
+    <skos:prefLabel xml:lang="fr">DECINES-CHARPIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.932 45.744</gml:lowerCorner>
+        <gml:upperCorner>4.984 45.807</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69081">
+    <skos:prefLabel xml:lang="fr">ECULLY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.752 45.763</gml:lowerCorner>
+        <gml:upperCorner>4.794 45.800</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69276">
+    <skos:prefLabel xml:lang="fr">FEYZIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.829 45.658</gml:lowerCorner>
+        <gml:upperCorner>4.888 45.688</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69085">
+    <skos:prefLabel xml:lang="fr">FLEURIEU-SUR-SAONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.836 45.848</gml:lowerCorner>
+        <gml:upperCorner>4.876 45.868</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69087">
+    <skos:prefLabel xml:lang="fr">FONTAINES-SAINT-MARTIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.838 45.832</gml:lowerCorner>
+        <gml:upperCorner>4.866 45.856</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69088">
+    <skos:prefLabel xml:lang="fr">FONTAINES-SUR-SAONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.837 45.814</gml:lowerCorner>
+        <gml:upperCorner>4.866 45.839</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69089">
+    <skos:prefLabel xml:lang="fr">FRANCHEVILLE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.725 45.725</gml:lowerCorner>
+        <gml:upperCorner>4.781 45.751</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69278">
+    <skos:prefLabel xml:lang="fr">GENAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.805 45.884</gml:lowerCorner>
+        <gml:upperCorner>4.872 45.912</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69091">
+    <skos:prefLabel xml:lang="fr">GIVORS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.703 45.557</gml:lowerCorner>
+        <gml:upperCorner>4.808 45.611</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69096">
+    <skos:prefLabel xml:lang="fr">GRIGNY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.764 45.590</gml:lowerCorner>
+        <gml:upperCorner>4.807 45.623</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69100">
+    <skos:prefLabel xml:lang="fr">IRIGNY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.790 45.654</gml:lowerCorner>
+        <gml:upperCorner>4.838 45.695</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69279">
+    <skos:prefLabel xml:lang="fr">JONAGE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.013 45.765</gml:lowerCorner>
+        <gml:upperCorner>5.060 45.812</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69142">
+    <skos:prefLabel xml:lang="fr">LA MULATIERE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.802 45.717</gml:lowerCorner>
+        <gml:upperCorner>4.820 45.749</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69250">
+    <skos:prefLabel xml:lang="fr">LA TOUR-DE-SALVAGNY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.692 45.787</gml:lowerCorner>
+        <gml:upperCorner>4.733 45.829</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69116">
+    <skos:prefLabel xml:lang="fr">LIMONEST</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.746 45.802</gml:lowerCorner>
+        <gml:upperCorner>4.789 45.850</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69117">
+    <skos:prefLabel xml:lang="fr">LISSIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.733 45.837</gml:lowerCorner>
+        <gml:upperCorner>4.766 45.878</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69123">
+    <skos:prefLabel xml:lang="fr">LYON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.771 45.707</gml:lowerCorner>
+        <gml:upperCorner>4.899 45.808</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69381">
+    <skos:prefLabel xml:lang="fr">LYON 1ER</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.813 45.765</gml:lowerCorner>
+        <gml:upperCorner>4.840 45.775</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69382">
+    <skos:prefLabel xml:lang="fr">LYON 2EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.813 45.726</gml:lowerCorner>
+        <gml:upperCorner>4.840 45.766</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69383">
+    <skos:prefLabel xml:lang="fr">LYON 3EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.838 45.739</gml:lowerCorner>
+        <gml:upperCorner>4.898 45.764</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69384">
+    <skos:prefLabel xml:lang="fr">LYON 4EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.809 45.771</gml:lowerCorner>
+        <gml:upperCorner>4.843 45.790</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69385">
+    <skos:prefLabel xml:lang="fr">LYON 5EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.772 45.744</gml:lowerCorner>
+        <gml:upperCorner>4.830 45.768</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69386">
+    <skos:prefLabel xml:lang="fr">LYON 6EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.839 45.764</gml:lowerCorner>
+        <gml:upperCorner>4.870 45.787</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69387">
+    <skos:prefLabel xml:lang="fr">LYON 7EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.819 45.707</gml:lowerCorner>
+        <gml:upperCorner>4.860 45.757</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69388">
+    <skos:prefLabel xml:lang="fr">LYON 8EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.848 45.719</gml:lowerCorner>
+        <gml:upperCorner>4.892 45.749</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69389">
+    <skos:prefLabel xml:lang="fr">LYON 9EME</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.784 45.759</gml:lowerCorner>
+        <gml:upperCorner>4.841 45.808</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69127">
+    <skos:prefLabel xml:lang="fr">MARCY-L'ETOILE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.691 45.773</gml:lowerCorner>
+        <gml:upperCorner>4.734 45.797</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69282">
+    <skos:prefLabel xml:lang="fr">MEYZIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.975 45.746</gml:lowerCorner>
+        <gml:upperCorner>5.047 45.810</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69283">
+    <skos:prefLabel xml:lang="fr">MIONS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.918 45.641</gml:lowerCorner>
+        <gml:upperCorner>4.974 45.683</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69284">
+    <skos:prefLabel xml:lang="fr">MONTANAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.847 45.861</gml:lowerCorner>
+        <gml:upperCorner>4.884 45.897</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69143">
+    <skos:prefLabel xml:lang="fr">NEUVILLE-SUR-SAONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.814 45.865</gml:lowerCorner>
+        <gml:upperCorner>4.866 45.898</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69149">
+    <skos:prefLabel xml:lang="fr">OULLINS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.778 45.703</gml:lowerCorner>
+        <gml:upperCorner>4.823 45.724</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69152">
+    <skos:prefLabel xml:lang="fr">PIERRE-BENITE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.805 45.691</gml:lowerCorner>
+        <gml:upperCorner>4.844 45.714</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69153">
+    <skos:prefLabel xml:lang="fr">POLEYMIEUX-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.771 45.842</gml:lowerCorner>
+        <gml:upperCorner>4.814 45.869</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69286">
+    <skos:prefLabel xml:lang="fr">RILLIEUX-LA-PAPE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.865 45.795</gml:lowerCorner>
+        <gml:upperCorner>4.924 45.857</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69168">
+    <skos:prefLabel xml:lang="fr">ROCHETAILLEE-SUR-SAONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.831 45.833</gml:lowerCorner>
+        <gml:upperCorner>4.847 45.851</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69191">
+    <skos:prefLabel xml:lang="fr">SAINT-CYR-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.793 45.799</gml:lowerCorner>
+        <gml:upperCorner>4.839 45.843</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69194">
+    <skos:prefLabel xml:lang="fr">SAINT-DIDIER-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.782 45.788</gml:lowerCorner>
+        <gml:upperCorner>4.818 45.842</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69202">
+    <skos:prefLabel xml:lang="fr">SAINTE-FOY-LES-LYON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.771 45.720</gml:lowerCorner>
+        <gml:upperCorner>4.813 45.751</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69199">
+    <skos:prefLabel xml:lang="fr">SAINT-FONS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.836 45.680</gml:lowerCorner>
+        <gml:upperCorner>4.867 45.719</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69204">
+    <skos:prefLabel xml:lang="fr">SAINT-GENIS-LAVAL</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.764 45.664</gml:lowerCorner>
+        <gml:upperCorner>4.821 45.719</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69205">
+    <skos:prefLabel xml:lang="fr">SAINT-GENIS-LES-OLLIERES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.706 45.751</gml:lowerCorner>
+        <gml:upperCorner>4.743 45.771</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69205">
+    <skos:prefLabel xml:lang="fr">SAINT-GENIS-LES-OLLIERES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.706 45.751</gml:lowerCorner>
+        <gml:upperCorner>4.743 45.771</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69207">
+    <skos:prefLabel xml:lang="fr">SAINT-GERMAIN-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.787 45.868</gml:lowerCorner>
+        <gml:upperCorner>4.819 45.899</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69290">
+    <skos:prefLabel xml:lang="fr">SAINT-PRIEST</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.895 45.676</gml:lowerCorner>
+        <gml:upperCorner>5.000 45.726</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69233">
+    <skos:prefLabel xml:lang="fr">SAINT-ROMAIN-AU-MONT-D'OR</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.804 45.827</gml:lowerCorner>
+        <gml:upperCorner>4.838 45.843</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69292">
+    <skos:prefLabel xml:lang="fr">SATHONAY-CAMP</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.864 45.814</gml:lowerCorner>
+        <gml:upperCorner>4.893 45.835</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69293">
+    <skos:prefLabel xml:lang="fr">SATHONAY-VILLAGE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.863 45.828</gml:lowerCorner>
+        <gml:upperCorner>4.908 45.850</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69296">
+    <skos:prefLabel xml:lang="fr">SOLAIZE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.808 45.630</gml:lowerCorner>
+        <gml:upperCorner>4.857 45.662</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69244">
+    <skos:prefLabel xml:lang="fr">TASSIN-LA-DEMI-LUNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.711 45.750</gml:lowerCorner>
+        <gml:upperCorner>4.792 45.777</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69256">
+    <skos:prefLabel xml:lang="fr">VAULX-EN-VELIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.879 45.744</gml:lowerCorner>
+        <gml:upperCorner>4.970 45.810</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69259">
+    <skos:prefLabel xml:lang="fr">VENISSIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.849 45.671</gml:lowerCorner>
+        <gml:upperCorner>4.911 45.730</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69260">
+    <skos:prefLabel xml:lang="fr">VERNAISON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.795 45.633</gml:lowerCorner>
+        <gml:upperCorner>4.828 45.663</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69266">
+    <skos:prefLabel xml:lang="fr">VILLEURBANNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.858 45.748</gml:lowerCorner>
+        <gml:upperCorner>4.921 45.796</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69004">
+    <skos:prefLabel xml:lang="fr">ALIX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.637 45.905</gml:lowerCorner>
+        <gml:upperCorner>4.670 45.926</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69005">
+    <skos:prefLabel xml:lang="fr">AMBERIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.723 45.911</gml:lowerCorner>
+        <gml:upperCorner>4.762 45.940</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69009">
+    <skos:prefLabel xml:lang="fr">ANSE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.659 45.920</gml:lowerCorner>
+        <gml:upperCorner>4.750 45.969</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01021">
+    <skos:prefLabel xml:lang="fr">ARS-SUR-FORMANS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.801 45.973</gml:lowerCorner>
+        <gml:upperCorner>4.837 46.007</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_63028">
+    <skos:prefLabel xml:lang="fr">BAGNOLS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>2.575 45.443</gml:lowerCorner>
+        <gml:upperCorner>2.699 45.539</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01027">
+    <skos:prefLabel xml:lang="fr">BALAN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.074 45.797</gml:lowerCorner>
+        <gml:upperCorner>5.140 45.855</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01030">
+    <skos:prefLabel xml:lang="fr">BEAUREGARD</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.748 45.996</gml:lowerCorner>
+        <gml:upperCorner>4.764 46.006</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69020">
+    <skos:prefLabel xml:lang="fr">BELMONT-D'AZERGUES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.659 45.858</gml:lowerCorner>
+        <gml:upperCorner>4.676 45.875</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01043">
+    <skos:prefLabel xml:lang="fr">BEYNOST</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.973 45.807</gml:lowerCorner>
+        <gml:upperCorner>5.019 45.863</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01045">
+    <skos:prefLabel xml:lang="fr">BIRIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.003 45.928</gml:lowerCorner>
+        <gml:upperCorner>5.075 45.973</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38048">
+    <skos:prefLabel xml:lang="fr">BONNEFAMILLE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.072 45.576</gml:lowerCorner>
+        <gml:upperCorner>5.145 45.621</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01054">
+    <skos:prefLabel xml:lang="fr">BOURG-SAINT-CHRISTOPHE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.112 45.865</gml:lowerCorner>
+        <gml:upperCorner>5.166 45.903</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01062">
+    <skos:prefLabel xml:lang="fr">BRESSOLLES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.079 45.852</gml:lowerCorner>
+        <gml:upperCorner>5.117 45.890</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69027">
+    <skos:prefLabel xml:lang="fr">BRIGNAIS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.724 45.658</gml:lowerCorner>
+        <gml:upperCorner>4.781 45.691</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69028">
+    <skos:prefLabel xml:lang="fr">BRINDAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.670 45.698</gml:lowerCorner>
+        <gml:upperCorner>4.735 45.737</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69270">
+    <skos:prefLabel xml:lang="fr">CHAPONNAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.915 45.603</gml:lowerCorner>
+        <gml:upperCorner>5.001 45.659</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69043">
+    <skos:prefLabel xml:lang="fr">CHAPONOST</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.709 45.689</gml:lowerCorner>
+        <gml:upperCorner>4.780 45.728</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69047">
+    <skos:prefLabel xml:lang="fr">CHARNAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.644 45.867</gml:lowerCorner>
+        <gml:upperCorner>4.676 45.908</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69048">
+    <skos:prefLabel xml:lang="fr">CHASSAGNY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.701 45.589</gml:lowerCorner>
+        <gml:upperCorner>4.759 45.621</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69049">
+    <skos:prefLabel xml:lang="fr">CHASSELAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.746 45.847</gml:lowerCorner>
+        <gml:upperCorner>4.793 45.898</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38087">
+    <skos:prefLabel xml:lang="fr">CHASSE-SUR-RHONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.777 45.565</gml:lowerCorner>
+        <gml:upperCorner>4.848 45.589</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69050">
+    <skos:prefLabel xml:lang="fr">CHATILLON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.623 45.846</gml:lowerCorner>
+        <gml:upperCorner>4.673 45.897</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69051">
+    <skos:prefLabel xml:lang="fr">CHAUSSAN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.607 45.621</gml:lowerCorner>
+        <gml:upperCorner>4.659 45.655</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69052">
+    <skos:prefLabel xml:lang="fr">CHAZAY-D'AZERGUES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.687 45.858</gml:lowerCorner>
+        <gml:upperCorner>4.731 45.889</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69056">
+    <skos:prefLabel xml:lang="fr">CHESSY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.601 45.878</gml:lowerCorner>
+        <gml:upperCorner>4.632 45.903</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01105">
+    <skos:prefLabel xml:lang="fr">CIVRIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.848 45.893</gml:lowerCorner>
+        <gml:upperCorner>4.930 45.947</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69059">
+    <skos:prefLabel xml:lang="fr">CIVRIEUX-D'AZERGUES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.697 45.841</gml:lowerCorner>
+        <gml:upperCorner>4.727 45.873</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69299">
+    <skos:prefLabel xml:lang="fr">COLOMBIER-SAUGNIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.056 45.695</gml:lowerCorner>
+        <gml:upperCorner>5.160 45.739</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69272">
+    <skos:prefLabel xml:lang="fr">COMMUNAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.810 45.576</gml:lowerCorner>
+        <gml:upperCorner>4.861 45.619</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01142">
+    <skos:prefLabel xml:lang="fr">DAGNEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.054 45.835</gml:lowerCorner>
+        <gml:upperCorner>5.095 45.872</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38144">
+    <skos:prefLabel xml:lang="fr">DIEMOZ</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.058 45.569</gml:lowerCorner>
+        <gml:upperCorner>5.119 45.612</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69076">
+    <skos:prefLabel xml:lang="fr">DOMMARTIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.687 45.822</gml:lowerCorner>
+        <gml:upperCorner>4.737 45.851</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69080">
+    <skos:prefLabel xml:lang="fr">ECHALAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.692 45.522</gml:lowerCorner>
+        <gml:upperCorner>4.766 45.577</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69083">
+    <skos:prefLabel xml:lang="fr">EVEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.606 45.816</gml:lowerCorner>
+        <gml:upperCorner>4.638 45.835</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01156">
+    <skos:prefLabel xml:lang="fr">FARAMANS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.097 45.886</gml:lowerCorner>
+        <gml:upperCorner>5.154 45.930</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69086">
+    <skos:prefLabel xml:lang="fr">FLEURIEUX-SUR-L'ARBRESLE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.616 45.822</gml:lowerCorner>
+        <gml:upperCorner>4.675 45.857</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01166">
+    <skos:prefLabel xml:lang="fr">FRANS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.762 45.973</gml:lowerCorner>
+        <gml:upperCorner>4.801 46.007</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69090">
+    <skos:prefLabel xml:lang="fr">FRONTENAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.611 45.906</gml:lowerCorner>
+        <gml:upperCorner>4.652 45.930</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69277">
+    <skos:prefLabel xml:lang="fr">GENAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.973 45.704</gml:lowerCorner>
+        <gml:upperCorner>5.061 45.752</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69092">
+    <skos:prefLabel xml:lang="fr">GLEIZE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.656 45.971</gml:lowerCorner>
+        <gml:upperCorner>4.719 46.010</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38184">
+    <skos:prefLabel xml:lang="fr">GRENAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.054 45.641</gml:lowerCorner>
+        <gml:upperCorner>5.097 45.677</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69094">
+    <skos:prefLabel xml:lang="fr">GREZIEU-LA-VARENNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.643 45.732</gml:lowerCorner>
+        <gml:upperCorner>4.716 45.760</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38189">
+    <skos:prefLabel xml:lang="fr">HEYRIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.034 45.601</gml:lowerCorner>
+        <gml:upperCorner>5.080 45.653</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38197">
+    <skos:prefLabel xml:lang="fr">JANNEYRIAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.089 45.733</gml:lowerCorner>
+        <gml:upperCorner>5.139 45.768</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69101">
+    <skos:prefLabel xml:lang="fr">JARNIOUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.617 45.955</gml:lowerCorner>
+        <gml:upperCorner>4.648 45.980</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01194">
+    <skos:prefLabel xml:lang="fr">JASSANS-RIOTTIER</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.748 45.956</gml:lowerCorner>
+        <gml:upperCorner>4.776 45.997</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69280">
+    <skos:prefLabel xml:lang="fr">JONS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.057 45.784</gml:lowerCorner>
+        <gml:upperCorner>5.101 45.813</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01198">
+    <skos:prefLabel xml:lang="fr">JOYEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.066 45.920</gml:lowerCorner>
+        <gml:upperCorner>5.132 45.971</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01049">
+    <skos:prefLabel xml:lang="fr">LA BOISSE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.989 45.825</gml:lowerCorner>
+        <gml:upperCorner>5.063 45.870</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69105">
+    <skos:prefLabel xml:lang="fr">LACENAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.630 45.976</gml:lowerCorner>
+        <gml:upperCorner>4.658 45.997</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69106">
+    <skos:prefLabel xml:lang="fr">LACHASSAGNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.655 45.916</gml:lowerCorner>
+        <gml:upperCorner>4.699 45.935</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69010">
+    <skos:prefLabel xml:lang="fr">L'ARBRESLE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.595 45.822</gml:lowerCorner>
+        <gml:upperCorner>4.623 45.846</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01260">
+    <skos:prefLabel xml:lang="fr">LE MONTELLIER</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.040 45.901</gml:lowerCorner>
+        <gml:upperCorner>5.099 45.955</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69112">
+    <skos:prefLabel xml:lang="fr">LENTILLY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.631 45.790</gml:lowerCorner>
+        <gml:upperCorner>4.706 45.843</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69055">
+    <skos:prefLabel xml:lang="fr">LES CHERES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.726 45.878</gml:lowerCorner>
+        <gml:upperCorner>4.763 45.911</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69114">
+    <skos:prefLabel xml:lang="fr">LIERGUES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.646 45.949</gml:lowerCorner>
+        <gml:upperCorner>4.683 45.979</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69115">
+    <skos:prefLabel xml:lang="fr">LIMAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.694 45.960</gml:lowerCorner>
+        <gml:upperCorner>4.745 45.982</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69118">
+    <skos:prefLabel xml:lang="fr">LOIRE-SUR-RHONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.749 45.523</gml:lowerCorner>
+        <gml:upperCorner>4.820 45.572</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69121">
+    <skos:prefLabel xml:lang="fr">LOZANNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.669 45.838</gml:lowerCorner>
+        <gml:upperCorner>4.700 45.867</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69122">
+    <skos:prefLabel xml:lang="fr">LUCENAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.684 45.903</gml:lowerCorner>
+        <gml:upperCorner>4.734 45.923</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38215">
+    <skos:prefLabel xml:lang="fr">LUZINAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.927 45.561</gml:lowerCorner>
+        <gml:upperCorner>4.998 45.612</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69125">
+    <skos:prefLabel xml:lang="fr">MARCILLY-D'AZERGUES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.717 45.849</gml:lowerCorner>
+        <gml:upperCorner>4.742 45.887</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69126">
+    <skos:prefLabel xml:lang="fr">MARCY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.663 45.903</gml:lowerCorner>
+        <gml:upperCorner>4.688 45.924</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69281">
+    <skos:prefLabel xml:lang="fr">MARENNES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.886 45.601</gml:lowerCorner>
+        <gml:upperCorner>4.933 45.648</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01238">
+    <skos:prefLabel xml:lang="fr">MASSIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.803 45.896</gml:lowerCorner>
+        <gml:upperCorner>4.852 45.923</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69131">
+    <skos:prefLabel xml:lang="fr">MESSIMY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.641 45.678</gml:lowerCorner>
+        <gml:upperCorner>4.707 45.716</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69133">
+    <skos:prefLabel xml:lang="fr">MILLERY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.755 45.611</gml:lowerCorner>
+        <gml:upperCorner>4.807 45.650</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01248">
+    <skos:prefLabel xml:lang="fr">MIONNAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.880 45.874</gml:lowerCorner>
+        <gml:upperCorner>4.974 45.917</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01249">
+    <skos:prefLabel xml:lang="fr">MIRIBEL</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.900 45.805</gml:lowerCorner>
+        <gml:upperCorner>4.980 45.883</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01250">
+    <skos:prefLabel xml:lang="fr">MISERIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.790 45.947</gml:lowerCorner>
+        <gml:upperCorner>4.836 46.001</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69136">
+    <skos:prefLabel xml:lang="fr">MONTAGNY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.729 45.607</gml:lowerCorner>
+        <gml:upperCorner>4.774 45.651</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01261">
+    <skos:prefLabel xml:lang="fr">MONTHIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.920 45.943</gml:lowerCorner>
+        <gml:upperCorner>4.975 45.982</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01262">
+    <skos:prefLabel xml:lang="fr">MONTLUEL</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.962 45.838</gml:lowerCorner>
+        <gml:upperCorner>5.074 45.934</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69140">
+    <skos:prefLabel xml:lang="fr">MORANCE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.673 45.879</gml:lowerCorner>
+        <gml:upperCorner>4.730 45.907</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69141">
+    <skos:prefLabel xml:lang="fr">MORNANT</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.639 45.588</gml:lowerCorner>
+        <gml:upperCorner>4.710 45.643</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01275">
+    <skos:prefLabel xml:lang="fr">NEYRON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.918 45.804</gml:lowerCorner>
+        <gml:upperCorner>4.953 45.836</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01276">
+    <skos:prefLabel xml:lang="fr">NIEVROZ</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.030 45.808</gml:lowerCorner>
+        <gml:upperCorner>5.092 45.839</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69144">
+    <skos:prefLabel xml:lang="fr">NUELLES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.616 45.839</gml:lowerCorner>
+        <gml:upperCorner>4.636 45.859</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69148">
+    <skos:prefLabel xml:lang="fr">ORLIENAS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.689 45.643</gml:lowerCorner>
+        <gml:upperCorner>4.751 45.677</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01285">
+    <skos:prefLabel xml:lang="fr">PARCIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.807 45.909</gml:lowerCorner>
+        <gml:upperCorner>4.851 45.929</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01297">
+    <skos:prefLabel xml:lang="fr">PIZAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.066 45.862</gml:lowerCorner>
+        <gml:upperCorner>5.113 45.918</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69154">
+    <skos:prefLabel xml:lang="fr">POLLIONNAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.617 45.748</gml:lowerCorner>
+        <gml:upperCorner>4.699 45.793</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69156">
+    <skos:prefLabel xml:lang="fr">POMMIERS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.662 45.941</gml:lowerCorner>
+        <gml:upperCorner>4.721 45.974</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69159">
+    <skos:prefLabel xml:lang="fr">POUILLY-LE-MONIAL</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.628 45.944</gml:lowerCorner>
+        <gml:upperCorner>4.660 45.966</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69285">
+    <skos:prefLabel xml:lang="fr">PUSIGNAN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.036 45.732</gml:lowerCorner>
+        <gml:upperCorner>5.095 45.782</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69163">
+    <skos:prefLabel xml:lang="fr">QUINCIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.733 45.894</gml:lowerCorner>
+        <gml:upperCorner>4.810 45.939</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01318">
+    <skos:prefLabel xml:lang="fr">RANCE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.836 45.948</gml:lowerCorner>
+        <gml:upperCorner>4.895 45.985</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01322">
+    <skos:prefLabel xml:lang="fr">REYRIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.788 45.920</gml:lowerCorner>
+        <gml:upperCorner>4.874 45.952</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69170">
+    <skos:prefLabel xml:lang="fr">RONTALON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.586 45.638</gml:lowerCorner>
+        <gml:upperCorner>4.654 45.671</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69179">
+    <skos:prefLabel xml:lang="fr">SAINT-ANDEOL-LE-CHATEAU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.665 45.571</gml:lowerCorner>
+        <gml:upperCorner>4.720 45.605</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01333">
+    <skos:prefLabel xml:lang="fr">SAINT-ANDRE-DE-CORCY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.904 45.906</gml:lowerCorner>
+        <gml:upperCorner>5.001 45.951</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01339">
+    <skos:prefLabel xml:lang="fr">SAINT-BERNARD</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.728 45.937</gml:lowerCorner>
+        <gml:upperCorner>4.755 45.962</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69287">
+    <skos:prefLabel xml:lang="fr">SAINT-BONNET-DE-MURE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.988 45.670</gml:lowerCorner>
+        <gml:upperCorner>5.060 45.724</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01347">
+    <skos:prefLabel xml:lang="fr">SAINT-DIDIER-DE-FORMANS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.753 45.943</gml:lowerCorner>
+        <gml:upperCorner>4.799 45.973</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69190">
+    <skos:prefLabel xml:lang="fr">SAINTE-CONSORCE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.676 45.759</gml:lowerCorner>
+        <gml:upperCorner>4.715 45.793</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01342">
+    <skos:prefLabel xml:lang="fr">SAINTE-CROIX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.018 45.879</gml:lowerCorner>
+        <gml:upperCorner>5.077 45.915</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01353">
+    <skos:prefLabel xml:lang="fr">SAINTE-EUPHEMIE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.776 45.946</gml:lowerCorner>
+        <gml:upperCorner>4.808 45.983</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69208">
+    <skos:prefLabel xml:lang="fr">SAINT-GERMAIN-SUR-L'ARBRESLE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.596 45.842</gml:lowerCorner>
+        <gml:upperCorner>4.627 45.880</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69212">
+    <skos:prefLabel xml:lang="fr">SAINT-JEAN-DES-VIGNES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.670 45.866</gml:lowerCorner>
+        <gml:upperCorner>4.696 45.882</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01362">
+    <skos:prefLabel xml:lang="fr">SAINT-JEAN-DE-THURIGNEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.861 45.936</gml:lowerCorner>
+        <gml:upperCorner>4.930 45.982</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38408">
+    <skos:prefLabel xml:lang="fr">SAINT-JUST-CHALEYSSIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.970 45.565</gml:lowerCorner>
+        <gml:upperCorner>5.044 45.607</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69219">
+    <skos:prefLabel xml:lang="fr">SAINT-LAURENT-D'AGNY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.653 45.618</gml:lowerCorner>
+        <gml:upperCorner>4.711 45.662</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69288">
+    <skos:prefLabel xml:lang="fr">SAINT-LAURENT-DE-MURE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.011 45.660</gml:lowerCorner>
+        <gml:upperCorner>5.108 45.707</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69221">
+    <skos:prefLabel xml:lang="fr">SAINT-LAURENT-DE-VAUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.610 45.703</gml:lowerCorner>
+        <gml:upperCorner>4.644 45.718</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01371">
+    <skos:prefLabel xml:lang="fr">SAINT-MARCEL</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.960 45.927</gml:lowerCorner>
+        <gml:upperCorner>5.011 45.969</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01376">
+    <skos:prefLabel xml:lang="fr">SAINT-MAURICE-DE-BEYNOST</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.958 45.805</gml:lowerCorner>
+        <gml:upperCorner>4.992 45.859</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69289">
+    <skos:prefLabel xml:lang="fr">SAINT-PIERRE-DE-CHANDIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.958 45.612</gml:lowerCorner>
+        <gml:upperCorner>5.058 45.681</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69231">
+    <skos:prefLabel xml:lang="fr">SAINT-PIERRE-LA-PALUD</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.592 45.760</gml:lowerCorner>
+        <gml:upperCorner>4.639 45.805</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38449">
+    <skos:prefLabel xml:lang="fr">SAINT-QUENTIN-FALLAVIER</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.073 45.607</gml:lowerCorner>
+        <gml:upperCorner>5.151 45.670</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69236">
+    <skos:prefLabel xml:lang="fr">SAINT-ROMAIN-EN-GIER</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.685 45.550</gml:lowerCorner>
+        <gml:upperCorner>4.727 45.576</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69237">
+    <skos:prefLabel xml:lang="fr">SAINT-SORLIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.605 45.610</gml:lowerCorner>
+        <gml:upperCorner>4.652 45.630</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69291">
+    <skos:prefLabel xml:lang="fr">SAINT-SYMPHORIEN-D'OZON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.836 45.612</gml:lowerCorner>
+        <gml:upperCorner>4.897 45.664</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38475">
+    <skos:prefLabel xml:lang="fr">SATOLAS-ET-BONCE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.088 45.656</gml:lowerCorner>
+        <gml:upperCorner>5.155 45.707</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69294">
+    <skos:prefLabel xml:lang="fr">SEREZIN-DU-RHONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.807 45.615</gml:lowerCorner>
+        <gml:upperCorner>4.841 45.641</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69295">
+    <skos:prefLabel xml:lang="fr">SIMANDRES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.852 45.590</gml:lowerCorner>
+        <gml:upperCorner>4.891 45.631</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69176">
+    <skos:prefLabel xml:lang="fr">SOUCIEU-EN-JARREST</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.652 45.653</gml:lowerCorner>
+        <gml:upperCorner>4.728 45.700</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69177">
+    <skos:prefLabel xml:lang="fr">SOURCIEUX-LES-MINES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.605 45.777</gml:lowerCorner>
+        <gml:upperCorner>4.657 45.817</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69241">
+    <skos:prefLabel xml:lang="fr">TALUYERS</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.704 45.615</gml:lowerCorner>
+        <gml:upperCorner>4.748 45.652</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69297">
+    <skos:prefLabel xml:lang="fr">TERNAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.777 45.586</gml:lowerCorner>
+        <gml:upperCorner>4.829 45.628</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01418">
+    <skos:prefLabel xml:lang="fr">THIL</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.999 45.805</gml:lowerCorner>
+        <gml:upperCorner>5.037 45.831</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69298">
+    <skos:prefLabel xml:lang="fr">TOUSSIEU</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.963 45.646</gml:lowerCorner>
+        <gml:upperCorner>5.000 45.670</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01423">
+    <skos:prefLabel xml:lang="fr">TOUSSIEUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.813 45.948</gml:lowerCorner>
+        <gml:upperCorner>4.845 45.973</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01424">
+    <skos:prefLabel xml:lang="fr">TRAMOYES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.931 45.857</gml:lowerCorner>
+        <gml:upperCorner>4.994 45.891</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_01427">
+    <skos:prefLabel xml:lang="fr">TREVOUX</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.744 45.923</gml:lowerCorner>
+        <gml:upperCorner>4.797 45.955</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38519">
+    <skos:prefLabel xml:lang="fr">VALENCIN</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.989 45.588</gml:lowerCorner>
+        <gml:upperCorner>5.062 45.623</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69255">
+    <skos:prefLabel xml:lang="fr">VAUGNERAY</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.601 45.707</gml:lowerCorner>
+        <gml:upperCorner>4.698 45.755</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69264">
+    <skos:prefLabel xml:lang="fr">VILLEFRANCHE-SUR-SAONE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.697 45.964</gml:lowerCorner>
+        <gml:upperCorner>4.754 46.002</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38557">
+    <skos:prefLabel xml:lang="fr">VILLETTE-D'ANTHON</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>5.059 45.761</gml:lowerCorner>
+        <gml:upperCorner>5.144 45.813</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_38558">
+    <skos:prefLabel xml:lang="fr">VILLETTE-DE-VIENNE</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.887 45.569</gml:lowerCorner>
+        <gml:upperCorner>4.933 45.607</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#COM_69268">
+    <skos:prefLabel xml:lang="fr">VOURLES</skos:prefLabel>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>4.748 45.640</gml:lowerCorner>
+        <gml:upperCorner>4.789 45.673</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+    <skos:broader rdf:resource="http://grandlyon.org/#adminstrativeArea"/>
+  </skos:Concept>
+</rdf:RDF>
