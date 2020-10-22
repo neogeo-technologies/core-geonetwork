@@ -61,7 +61,7 @@ public class MigrationApi {
 
     @ApiOperation(value = "Call a migration step",
         nickname = "callStep")
-    @RequestMapping(value = "/steps/{stepName}",
+    @RequestMapping(value = "/steps/{stepName:.+}",
         produces = MediaType.TEXT_PLAIN_VALUE,
         method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.CREATED)
