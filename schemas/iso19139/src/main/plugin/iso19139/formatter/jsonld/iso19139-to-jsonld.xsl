@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
+<xsl:stylesheet
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:gco="http://www.isotc211.org/2005/gco"
 	xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -107,7 +107,7 @@
                 select="//gmd:MD_Metadata/gmd:language/*/@codeListValue"/>
 
   <!-- TODO: Convert language code eng > en_US ? -->
- 
+
   <xsl:variable name="requestedLanguageExist"
                 select="$lang != ''
                         and count(//gmd:MD_Metadata/gmd:locale/*[gmd:languageCode/*/@codeListValue = $lang]/@id) > 0"/>
@@ -126,14 +126,14 @@
                 mode="getJsonLD" match="gmd:MD_Metadata">
 	{
 		"@context": "http://schema.org/",
-    <xsl:choose>
-      <xsl:when test="gmd:hierarchyLevel/*/@codeListValue != ''">
-		    "@type": "<xsl:value-of select="schema-org-fn:getType(gmd:hierarchyLevel/*/@codeListValue, 'schema:')"/>",
-      </xsl:when>
-      <xsl:otherwise>
-        "@type": "schema:Dataset",
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:variable name="hierarchyLevels"
+                  select="distinct-values(gmd:hierarchyLevel/*/@codeListValue[. != ''])"/>
+    <xsl:for-each select="$hierarchyLevels">
+      "@type": "<xsl:value-of select="schema-org-fn:getType(., 'schema:')"/>",
+    </xsl:for-each>
+    <xsl:if test="count($hierarchyLevels) = 0">
+      "@type": "schema:Dataset",
+    </xsl:if>
     <!-- TODO: Use the identifier property to attach any relevant Digital Object identifiers (DOIs). -->
 		"@id": "<xsl:value-of select="concat($baseUrl, 'api/records/', gmd:fileIdentifier/*/text())"/>",
 		"includedInDataCatalog":[{"url":"<xsl:value-of select="concat($baseUrl, 'search#', $catalogueName)"/>","name":"<xsl:value-of select="$catalogueName"/>"}],
@@ -155,7 +155,7 @@
     <xsl:for-each select="gmd:identificationInfo/*/gmd:citation/*/gmd:date[gmd:dateType/*/@codeListValue='revision']/*/gmd:date/*/text()">
 		"dateModified": "<xsl:value-of select="."/>",
     </xsl:for-each>
-    
+
 		"thumbnailUrl": [
     <xsl:for-each select="gmd:identificationInfo/*/gmd:graphicOverview/*/gmd:fileName/*[. != '']">
     "<xsl:value-of select="."/>"<xsl:if test="position() != last()">,</xsl:if>
@@ -294,8 +294,8 @@
 
 
     <xsl:if test="count(gmd:identificationInfo/*/gmd:extent/*/gmd:temporalElement/*/gmd:extent[normalize-space(.) != '']) > 0">
-      ,"temporalCoverage": [<xsl:for-each 
-        select="gmd:identificationInfo/*/gmd:extent/*/gmd:temporalElement/*/gmd:extent">"<xsl:value-of 
+      ,"temporalCoverage": [<xsl:for-each
+        select="gmd:identificationInfo/*/gmd:extent/*/gmd:temporalElement/*/gmd:extent">"<xsl:value-of
           select="concat(gml:TimePeriod/gml:beginPosition|gml320:TimePeriod/gml320:beginPosition,'/',
             gml:TimePeriod/gml:endPosition|gml320:TimePeriod/gml320:endPosition
       )"/>"<xsl:if test="position() != last()">,</xsl:if></xsl:for-each> ]
@@ -305,10 +305,10 @@
       "temporalCoverage" : "2013-12-19/.."
       "temporalCoverage" : "2008"
       -->
-    
+
     <!-- array of licenses is allowed, not multiple licenses-->
-    <xsl:if test="count(gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints[normalize-space(.) != '']) > 0"> 
-      ,"license":  [<xsl:for-each 
+    <xsl:if test="count(gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints[normalize-space(.) != '']) > 0">
+      ,"license":  [<xsl:for-each
         select="gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints">
         <xsl:choose>
           <xsl:when test="starts-with(normalize-space(string-join(gco:CharacterString/text(),'')),'http') or starts-with(normalize-space(string-join(gco:CharacterString/text(),'')),'//')">
