@@ -467,6 +467,11 @@ UPDATE Settings SET value='0' WHERE name='system/platform/subVersion';
 
 -- Spécifique GL
 
+INSERT INTO sourcesdes (iddes, label, langid) VALUES ('233d066a-3045-481f-850a-038e3afc4a44', ' Catalogue du Grand Lyon', 'fre');
+INSERT INTO sourcesdes (iddes, label, langid) VALUES ('233d066a-3045-481f-850a-038e3afc4a44', ' Catalogue du Grand Lyon', 'eng');
+
+
+
 DELETE FROM operationallowed WHERE metadataid IN (SELECT id FROM metadata WHERE schemaid = 'iso19139.fra');
 DELETE FROM metadata WHERE schemaid = 'iso19139.fra';
 
