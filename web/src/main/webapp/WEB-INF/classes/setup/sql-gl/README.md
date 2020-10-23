@@ -118,6 +118,8 @@ La migration consiste en 3 étapes
 
 * Migration SQL (cf. [migrate-3104.sql](migrate-3104.sql) pour le middle et [migrate-3104-othu.sql](migrate-3104-othu.sql) pour othu). Application des migrations "standards" GeoNetwork depuis la version de l'appli + quelques corrections/configurations en SQL en fin de script.
 
+* Lancer l'appli.
+
 * Correction via l'API (après démarrage de l'appli) (cf. [migrate-3104.sh](migrate-3104.sql) pour le middle et [migrate-3104-othu.sh](migrate-3104-othu.sql) pour othu). 
    
 
