@@ -78,7 +78,7 @@ goog.require('gn_alert');
           'enabled': true,
           'languages': {
             'eng': 'en',
-            'fre': 'fr',
+            'fre': 'fr'
           },
           'isLogoInHeader': false,
           'logoInHeaderPosition': 'left',

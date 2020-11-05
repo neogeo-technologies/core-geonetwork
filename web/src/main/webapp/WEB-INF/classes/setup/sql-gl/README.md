@@ -23,7 +23,7 @@ Import dump:
 
 ```shell script
 DUMP_DIR=/data/project/2021/grandlyon/prod
-pg_restore -h localhost -U www-data -W  -d gl_back $DUMP_DIR/DIVREC_geosource_20200809_2205.pgd
+pg_restore -h localhost -U www-data -W  -d gl_back $DUMP_DIR/DIVPRO_geosource_20201103_2201.pgd
 psql -h localhost -U www-data -W -f $DUMP_DIR/dump_middle.sql gl_middle
 psql -h localhost -U www-data -W -f $DUMP_DIR/dump_othu.sql gl_othu
 ```
