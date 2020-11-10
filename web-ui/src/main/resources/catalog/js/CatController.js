@@ -207,7 +207,7 @@ goog.require('gn_alert');
           'is3DModeAllowed': false,
           'isSaveMapInCatalogAllowed': true,
           'isExportMapAsImageEnabled': false,
-          'storage': 'sessionStorage',
+          'storage': '',
           'bingKey': '',
           'listOfServices': {
             'wms': [],
