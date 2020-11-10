@@ -487,3 +487,16 @@ UPDATE metadata SET data = replace(data, 'http://geosource.grandlyon.fr/geosourc
 
 
 UPDATE metadata SET data = replace(data, 'http://geosource.recette.grandlyon.fr/geosource', 'https://geosource-back.recette.data.grandlyon.com/geonetwork') WHERE data LIKE '%http://geosource.recette.grandlyon.fr/geosource%';
+
+
+
+
+DELETE FROM schematroncriteria WHERE group_schematronid IN (SELECT schematronid FROM schematroncriteriagroup WHERE schematronid IN (SELECT id FROM schematron WHERE schemaname = 'iso19139.fra'));
+
+DELETE FROM schematroncriteriagroup WHERE schematronid IN (SELECT id FROM schematron WHERE schemaname = 'iso19139.fra');
+
+DELETE FROM schematrondes WHERE iddes IN (SELECT id FROM schematron WHERE schemaname = 'iso19139.fra');
+
+DELETE FROM schematron WHERE schemaname = 'iso19139.fra';
+
+
