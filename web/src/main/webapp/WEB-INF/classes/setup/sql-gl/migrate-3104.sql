@@ -482,4 +482,8 @@ UPDATE metadata SET data = replace(data, ' xmlns:fra="http://www.cnig.gouv.fr/20
 UPDATE metadata SET data = replace(data, '/thesaurus.download?ref=external.theme.inspire-theme">geonetwork.thesaurus.external.theme.inspire-theme', '/thesaurus.download?ref=external.theme.httpinspireeceuropaeutheme-theme">geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme') WHERE data LIKE '%/thesaurus.download?ref=external.theme.inspire-theme">geonetwork.thesaurus.external.theme.inspire-theme%';
 
 -- * Vieux liens
-UPDATE metadata SET data = replace(data, 'http://geosource.grandlyon.fr/geosource', 'https://download.data.grandlyon.com/catalogue') WHERE data LIKE '%http://geosource.grandlyon.fr/geosource%';
+
+UPDATE metadata SET data = replace(data, 'http://geosource.grandlyon.fr/geosource', 'https://geosource-back.data.grandlyon.com/geonetwork') WHERE data LIKE '%http://geosource.grandlyon.fr/geosource%';
+
+
+UPDATE metadata SET data = replace(data, 'http://geosource.recette.grandlyon.fr/geosource', 'https://geosource-back.recette.data.grandlyon.com/geonetwork') WHERE data LIKE '%http://geosource.recette.grandlyon.fr/geosource%';
